@@ -1,7 +1,7 @@
 // Service worker : l'interface (HTML, CSS, JS, polices, icônes) est gardée en cache pour
 // s'ouvrir instantanément, même sans réseau. Les données (/api/) ne sont JAMAIS mises en cache :
 // elles viennent toujours fraîches du serveur, sinon l'appli affiche qu'elle est hors ligne.
-const VERSION = "emploi-20261116-193803";
+const VERSION = "emploi-20261116-195204";
 // Chemins relatifs : l'appli marche à la racine (PC) comme sous /emploi/ (GitHub Pages).
 const INTERFACE = ["./", "index.html", "style.css", "app.js", "fonts.css", "manifest.webmanifest",
   "donnees.js", "config.js", "icones/icone-192.png", "icones/icone-512.png", "icones/favicon.png"];
